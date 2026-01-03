@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BlogVerse</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+</head>
+
+<body>
+
+<nav>
+  <h1>BlogVerse</h1>
+  <div>
+    <a href="login.html">Login</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h2>Write. Inspire. Share.</h2>
+  <p>Welcome to BlogVerse — A Universe of Ideas</p>
+</header>
+
+<section id="posts" class="posts"></section>
+
+<script src="firebase.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
